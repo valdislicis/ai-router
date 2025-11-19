@@ -1,5 +1,5 @@
 {
-  "name": "ai-router",
+  "name": "@valdisl/ai-router",
   "version": "0.1.0",
   "description": "Pluggable LLM routing layer with multiple providers (OpenAI, Groq, Ollama, Generic HTTP)",
   "main": "dist/index.js",
@@ -9,8 +9,16 @@
     "test": "jest"
   },
   "keywords": ["llm", "router", "openai", "groq", "ollama", "ai"],
-  "author": "",
+  "author": "Valdis Līcis",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdislicis/ai-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valdislicis/ai-router/issues"
+  },
+  "homepage": "https://github.com/valdislicis/ai-router#readme",
   "dependencies": {
     "cross-fetch": "^3.1.5"
   },
