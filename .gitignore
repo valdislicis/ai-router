@@ -1,0 +1,92 @@
+# ============================
+# Node Dependencies
+# ============================
+node_modules/
+
+# ============================
+# Environment / Secrets
+# ============================
+.env
+.env.*
+*.local
+*.env
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================
+# Build Artifacts
+# (Output that is generated from src/)
+# ============================
+dist/
+build/
+coverage/
+.out/
+.tmp/
+.cache/
+.esbuild/
+
+# Vite / Webpack / Parcel
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Typescript incremental builds
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# ============================
+# IDE / Editor junk
+# ============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vs/
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+
+# ============================
+# System / OS
+# ============================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# ============================
+# Testing Output
+# (Tests themselves are NOT ignored)
+# ============================
+.nyc_output/
+jest-coverage/
+
+# ============================
+# Package Manager Artifacts
+# (We DO keep package-lock.json for stability)
+# ============================
+.pnp.*
+.pnpm-store/
+.pnpm-debug.log*
+
+# ============================
+# Linting / Formatting
+# ============================
+.eslintcache
+

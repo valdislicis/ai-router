@@ -1,0 +1,51 @@
+# Ignore node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Env files
+.env
+.env.*
+*.local
+
+# Build output
+dist/
+build/
+coverage/
+.tmp/
+temp/
+
+# IDE / Editor junk
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Tests (optional)
+# Uncomment if you don't want to publish tests
+# test/
+# tests/
+# __tests__/
+
+# Git files
+.git/
+.gitignore
+
+# Project Meta
+.eslintcache
+.eslintignore
+.prettierignore
+.stylelintignore
+
